@@ -27,11 +27,11 @@ header {
 
     height: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: center;
     justify-content: center;
     align-items: flex-end;
     text-align: right;
-    padding: 0 50px;
+    padding: 0 0;
     position: relative;
 }
 
