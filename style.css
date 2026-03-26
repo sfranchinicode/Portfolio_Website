@@ -31,37 +31,8 @@ header {
     justify-content: center;  
     align-items: flex-end;    
     text-align: right;        
-    padding: 0 0;   
+    padding: 0 50PX;   
     position: relative;
-}
-
-.hero-text {
-    position: absolute;
-    top: 50%;                    
-    right: 50px;                 
-    transform: translateY(-50%);
-    text-align: right;           
-}
-
-.hero-text h1 {
-    font-size: 3rem;
-    margin: 0;
-    color: #60a5fa;
-}
-
-.hero-text p {
-    font-size: 1.2rem;
-    margin-top: 10px;
-    color: #facc15;
-}
-
-@media (max-width: 768px) {
-    .hero-text {
-        position: static;
-        transform: none;
-        text-align: center;
-        margin: auto;
-    }
 }
 
 header h1 {
