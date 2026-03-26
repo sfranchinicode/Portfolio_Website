@@ -24,6 +24,14 @@ header {
     color: white;
     font-family: "Poppins", Arial, sans-serif ;
     color: #d1d5db; 
+
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: flex-end;    
+    text-align: right;        
+    padding: 0 0;   
     position: relative;
 }
 
