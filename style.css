@@ -24,20 +24,14 @@ header {
     color: white;
     font-family: "Poppins", Arial, sans-serif ;
     color: #d1d5db; 
-
-    height: 400px;
-    display: flex;
-    flex-direction: center;
-    justify-content: center;
-    align-items: flex-end;
-    text-align: right;
-    padding: 0 0;
     position: relative;
 }
 
 .hero-text {
-    margin-left: auto;        
-    margin-right: 50px;         
+    position: absolute;
+    top: 50%;                    
+    right: 50px;                 
+    transform: translateY(-50%);
     text-align: right;           
 }
 
@@ -53,12 +47,12 @@ header {
     color: #facc15;
 }
 
-/* Responsive: center text on smaller screens */
 @media (max-width: 768px) {
     .hero-text {
-        margin-left: 0;
-        margin-right: 0;
+        position: static;
+        transform: none;
         text-align: center;
+        margin: auto;
     }
 }
 
